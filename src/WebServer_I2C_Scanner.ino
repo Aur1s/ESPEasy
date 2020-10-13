@@ -161,10 +161,10 @@ String getKnownI2Cdevice(byte address) {
     case 0x3B:
     case 0x3E:
     case 0x3F:
-      result =  F("PCF8574A");
+      result =  F("PCF8574A,AHT10");
       break;
     case 0x39:
-      result =  F("PCF8574A,TSL2561,APDS9960");
+      result =  F("PCF8574A,TSL2561,APDS9960,AHT10");
       break;
     case 0x3C:
     case 0x3D:
